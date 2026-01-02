@@ -1,5 +1,13 @@
 ---
-title: Welcome to my Homepage!
+title: Welcome to my homepage!
 ---
 
-I am moving my website to this page.
+<!-- ```poetry
+Welcome!
+``` -->
+
+I am moving my website to this page. Making some UI changes first.
+
+```poetry
+- Dasyud :)
+```

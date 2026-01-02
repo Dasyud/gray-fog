@@ -45,7 +45,6 @@ export default (() => {
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" />
-            <link href={fontStylePath} rel="stylesheet" type="text/css" spa-preserve />
             <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
             {cfg.theme.typography.title && (
               <link rel="stylesheet" href={googleFontSubsetHref(cfg.theme, cfg.pageTitle)} />
@@ -87,6 +86,7 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        <link href={fontStylePath} rel="stylesheet" type="text/css" spa-preserve />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
